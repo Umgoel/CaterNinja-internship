@@ -41,7 +41,7 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="src/app/newpage.html"
+          href="./Form"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -89,6 +89,7 @@ export default function Home() {
             Reach out to us for any queries.
           </p>
         </a>
+
       </div>
     </main>
   )
