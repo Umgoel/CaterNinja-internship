@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript">
+      function callValue() {
+        var name = document.getElementById("fname").value;
+        var age = document.getElementById("age").value;
+        document.write('<h4 style="width: 100vw; height: 100vh; display: grid; place-items: center; text-align: left" >Your Info'+ "<br>" + "Your name : "+name+"<br>Your age : "+age+"</h4>");
+      }
+    </script>
+  </head>
+  <body>
+    <header class="main_header">
+    <form onsubmit="callValue()">
+      <input type="text" id="fname" name="fname" placeholder="Lorem Ipsum"/><br><br />
+      <input type="number" id="age" name="age" placeholder="21" /><br /><br />
+      <input type="submit"/>
+    </form>
+    </header>
+  </body>
+</html>
