@@ -21,7 +21,7 @@ const Form: React.FC = () => {
 
 
   return (
-    <div>
+    <div className={styles.main}>
       <h1>Enter Data</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="input1">Name : </label>

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #10ac84;
+}
+
+div {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #10ac84;
+}
+
+h1 {
+  color: blanchedalmond;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}/*# sourceMappingURL=styles.css.map */
