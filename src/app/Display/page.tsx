@@ -1,17 +1,15 @@
-"use client";
-import { useRouter } from 'next/navigation';
+'use client'
 
-const Display: React.FC = () => {
-  const router = useRouter();
-  const { input1, input2 } = router.query;
+import { useSearchParams } from 'next/navigation'
 
+
+export default function SearchBar() {
+  const searchParams = useSearchParams()
+  const inp1 = searchParams.get('input1')
+  const inp2 = searchParams.get('input2')
   return (
-    <div>
-      <h1>Entered Data</h1>
-      <p><strong>Input 1:</strong> {input1}</p>
-      <p><strong>Input 2:</strong> {input2}</p>
-    </div>
+  <h3 > Entered Data: <br></br>
+  Your Name : {inp1} <br></br>
+  Your Age : {inp2} <br></br></h3>
   );
-};
-
-export default Display;
+}
