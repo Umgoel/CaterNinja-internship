@@ -6,10 +6,6 @@ $font-stack: Helvetica;
   box-sizing: border-box;
   background: #10ac84;
 }
-// input[type="text"]
-// {
-//     font-size:24px;
-// }
 div {
   font: 100% $font-stack;
   width: 100vw;
@@ -37,7 +33,7 @@ div {
     display: flex;
     font-size: 14px;
     padding: 8px 0.8em;
-        margin: 0;
+    margin: 0;
     position: absolute;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
@@ -48,14 +44,14 @@ div {
     box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
     box-sizing: border-box;
     color: golden;
-      font-size: 20px;
-  font-weight: 400;
+    font-size: 20px;
+    font-weight: 400;
   }
   button:active {
-  background-color:  #10ac84;
-  box-shadow: none;
-  color: green;
-}
+    background-color: #10ac84;
+    box-shadow: none;
+    color: green;
+  }
 }
 .main {
   display: flex;
