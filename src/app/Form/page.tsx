@@ -42,6 +42,7 @@ const Form: React.FC = () => {
           required
         />
         <br />
+        <br />
         <button type="submit">Submit</button>
       </form>
     </div>
