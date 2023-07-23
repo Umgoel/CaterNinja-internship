@@ -13,3 +13,5 @@ export default function SearchBar() {
   Your Age : {inp2} <br></br></h3>
   );
 }
+
+
