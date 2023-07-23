@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-// import Image from 'next/image'
-// import styles from '/Users/umanggoel/nextJS_work/src/app/page.module.css'
+import Image from 'next/image'
+import styles from 'src/app/Form/styles.scss'
 
 const Form: React.FC = () => {
   const [input1, setInput1] = useState("");
